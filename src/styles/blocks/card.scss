@@ -23,6 +23,7 @@
     line-height: 14px;
     color: $color-gray;
     margin-bottom: 16px;
+    font-weight: 400;
   }
 
   &__review-block {
@@ -36,6 +37,7 @@
   &__reviews {
     font-size: 10px;
     color: $color-dark;
+    font-weight: 400;
   }
 
   &__price {
@@ -48,6 +50,7 @@
     font-size: 12px;
     color: $color-gray;
     line-height: 18px;
+    font-weight: 400;
   }
 
   &__product-price {
@@ -70,7 +73,7 @@
     color: #fff;
     text-decoration: none;
     transition: 300ms;
-
+    background-color: $color-primary;
     &:hover {
       background-color: #fff;
       border: 1px solid $color-primary;
